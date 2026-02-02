@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View Lius Creative's portfolio of graphic design, branding, and digital work for businesses across Nigeria.">
+  <title>Portfolio - Lius Creative</title>
+  
+  <!-- Google Fonts - Lexend -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Lius<span>Creative</span></a>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portfolio Hero Section -->
+  <section class="portfolio-hero">
+    <div class="container">
+      <h1>Our Portfolio</h1>
+      <p>Explore our creative work and see how we've helped businesses across Nigeria succeed through exceptional design.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Content Section -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="container">
+      
+      <!-- Portfolio Filters -->
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="flyers">Flyers</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+        <button class="filter-btn" data-filter="promotions">Business Promotions</button>
+      </div>
+      
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+        
+        <!-- Flyer Projects -->
+        <div class="portfolio-item reveal" data-category="flyers">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #FF6B35, #F7931E);">
+            <i class="fas fa-file-alt" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Product Launch Flyer</h3>
+            <p>Promotional design for a new smartphone release</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="flyers">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #0A2463, #3E92CC);">
+            <i class="fas fa-ad" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Sales Event Poster</h3>
+            <p>Eye-catching design for a gadget store mega sale</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="flyers">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #D90429, #EF233C);">
+            <i class="fas fa-bullhorn" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Special Offer Flyer</h3>
+            <p>Limited-time promotion for electronics store</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <!-- Branding Projects -->
+        <div class="portfolio-item reveal" data-category="branding">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #2D00F7, #6A00F4);">
+            <i class="fas fa-copyright" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Tech Store Branding</h3>
+            <p>Complete brand identity for a Lagos gadget store</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="branding">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #06FFA5, #00D4FF);">
+            <i class="fas fa-certificate" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Startup Logo Design</h3>
+            <p>Modern logo for a digital services company</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="branding">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #FF6B35, #FF8C61);">
+            <i class="fas fa-award" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Restaurant Brand Package</h3>
+            <p>Full branding suite including menu designs</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <!-- Social Media Projects -->
+        <div class="portfolio-item reveal" data-category="social">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);">
+            <i class="fab fa-instagram" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Instagram Feed Design</h3>
+            <p>Cohesive grid layout for a fashion brand</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="social">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #1877F2, #42B72A);">
+            <i class="fab fa-facebook" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Facebook Ad Campaign</h3>
+            <p>Social media graphics for product promotion</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="social">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #25D366, #128C7E);">
+            <i class="fab fa-whatsapp" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>WhatsApp Status Graphics</h3>
+            <p>Engaging status updates for business promotion</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <!-- Business Promotion Projects -->
+        <div class="portfolio-item reveal" data-category="promotions">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #F72585, #7209B7);">
+            <i class="fas fa-tags" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Clearance Sale Banner</h3>
+            <p>High-impact design for end-of-year sale</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="promotions">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #F94144, #F3722C);">
+            <i class="fas fa-gift" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Grand Opening Promo</h3>
+            <p>Promotional materials for new store launch</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="promotions">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #4CC9F0, #4361EE);">
+            <i class="fas fa-percent" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Black Friday Campaign</h3>
+            <p>Complete promotional package for biggest sale</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <!-- Additional Mixed Projects -->
+        <div class="portfolio-item reveal" data-category="branding">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #0A2463, #FF6B35);">
+            <i class="fas fa-store" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>E-commerce Branding</h3>
+            <p>Brand identity for online gadget retailer</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="social">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #FF0050, #00D4FF);">
+            <i class="fas fa-heart" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Social Media Templates</h3>
+            <p>Reusable post templates for daily engagement</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="flyers">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #FFD60A, #FCA311);">
+            <i class="fas fa-mobile-alt" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>Product Catalogue</h3>
+            <p>Multi-page catalogue for smartphone accessories</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item reveal" data-category="promotions">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #06D6A0, #118AB2);">
+            <i class="fas fa-rocket" style="font-size: 3rem;"></i>
+          </div>
+          <div class="portfolio-overlay">
+            <h3>New Arrival Campaign</h3>
+            <p>Launch materials for latest product line</p>
+            <a href="contact.html" class="view-btn">Request Similar Design</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section" style="background: var(--white);">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Portfolio Highlights</h2>
+        <p>Numbers that showcase our impact across Nigeria</p>
+      </div>
+      
+      <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <div class="service-card reveal" style="text-align: center;">
+          <h2 style="font-size: 3rem; color: var(--accent-orange); margin-bottom: 10px;">500+</h2>
+          <h3 style="font-size: 1.25rem;">Projects Completed</h3>
+          <p>Successful designs delivered</p>
+        </div>
+        
+        <div class="service-card reveal" style="text-align: center;">
+          <h2 style="font-size: 3rem; color: var(--accent-orange); margin-bottom: 10px;">200+</h2>
+          <h3 style="font-size: 1.25rem;">Happy Clients</h3>
+          <p>Businesses we've helped grow</p>
+        </div>
+        
+        <div class="service-card reveal" style="text-align: center;">
+          <h2 style="font-size: 3rem; color: var(--accent-orange); margin-bottom: 10px;">100%</h2>
+          <h3 style="font-size: 1.25rem;">Client Satisfaction</h3>
+          <p>Quality guaranteed always</p>
+        </div>
+        
+        <div class="service-card reveal" style="text-align: center;">
+          <h2 style="font-size: 3rem; color: var(--accent-orange); margin-bottom: 10px;">24hrs</h2>
+          <h3 style="font-size: 1.25rem;">Average Turnaround</h3>
+          <p>Fast delivery guaranteed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section -->
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>Ready to Create Something Amazing?</h2>
+      <p>Join our growing list of satisfied clients and take your brand to the next level.</p>
+      <a href="contact.html" class="btn btn-white">Start Your Project Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Lius<span style="color: var(--accent-orange);">Creative</span></h3>
+          <p>Your trusted partner for graphic design, branding, and digital visibility in Nigeria.</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/liuscreative" target="_blank" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/2348018728787" target="_blank" class="social-icon">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Our Services</h3>
+          <div class="footer-links">
+            <a href="services.html">Graphic Design</a>
+            <a href="services.html">Branding Packages</a>
+            <a href="services.html">Google Maps Optimization</a>
+            <a href="services.html">Instagram Growth</a>
+            <a href="services.html">Website Design</a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="footer-links">
+            <a href="https://wa.me/2348018728787">
+              <i class="fab fa-whatsapp"></i> 08018728787
+            </a>
+            <a href="https://www.instagram.com/liuscreative">
+              <i class="fab fa-instagram"></i> @liuscreative
+            </a>
+            <a href="mailto:info@liuscreative.com">
+              <i class="fas fa-envelope"></i> info@liuscreative.com
+            </a>
+            <a>
+              <i class="fas fa-map-marker-alt"></i> Lagos, Nigeria
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Lius Creative. All rights reserved. Designed with passion in Nigeria.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/2348018728787" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
